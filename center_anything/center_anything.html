@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>center anything</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="center_anything.css" rel="stylesheet">
+  </head>
+  <body>
+
+    <header>
+      <h1>center anything</h1>
+
+      <p>
+        kelihatannya sepele, tapi untuk membuat elemen berada di tengah secara vertical/horizontal kadang suka lupa-lupa ingat, soalnya agak tricky, gue akan membahas cara melakukannya baik dengan cara lama atau terbaru, hasilnya sama saja
+      </p>
+    </header>
+
+    <main>
+
+      <h5>text-align</h5>
+      <div class="center center-1">
+        <p>Farikun Aziz</p>
+      </div>
+
+      <h5>margin auto</h5>
+      <div class="center center-2">
+        <div class="box"></div>
+      </div>
+
+      <h5>horizontal center with flex-box</h5>
+      <div class="center center-3">
+        <div class="box"></div>
+      </div>
+
+      <p>contoh di atas membuat elemen berada di tengah secara horizontal, contoh berikut membuat elemen berada di tengah secara vertical</p>
+ 
+      <h5>vertical center with position</h5>
+      <div class="center center-4">
+        <div class="box"></div>
+      </div>
+      <p>hasil di atas tidak tepat ditengah karena hanya menghitung dari sisi child, jika ingin tepat ditengah pada elemen parent, kurangi dengan margin setengah dari tinggi child</p>
+      <div class="center center-4-1">
+        <div class="box"></div>
+      </div>
+
+      <h5>using transform and translate</h5>
+      <p>jika methode di atas mengharuskan untuk mengurangi dengan margin dari elemen child, method ini tidak</p>
+      <div class="center center-5">
+        <div class="box"></div>
+      </div>
+
+      <h5>using flex-box</h5>
+      <p>flex-box adalah cara modern untuk mencapai hasil yang sama</p>
+      <div class="center center-6">
+        <div class="box"></div>
+      </div>
+
+      <p>bagaimana membuat elemen berada ditengah baik secara vertical dan horizontal, nah ini bagian agak tricky yang saya maksud</p>
+
+      <h5>parent relative</h5>
+      <p>ini sebenarnya cara lama</p>
+      <div class="center center-7">
+        <div class="box"></div>
+      </div>
+
+      <h5>transform & translate</h5>
+      <div class="center center-8">
+        <div class="box"></div>
+      </div>
+
+      <h5>flex-box the savior</h5>
+      <div class="center center-9">
+        <div class="box"></div>
+      </div>
+
+      <p>semua sudah dijelaskan, <strong>now center anything in your live, especially your free time!!!</strong></p>
+
+    </main>
+
+  </body>
+</html>
