@@ -1,0 +1,72 @@
+body{
+  background-color:#000;
+}
+
+
+#wrap{
+  background-color:#222222;
+  padding:1em 2em;
+  border-radius: 5px;
+  color:#fff;
+  width:450px;
+  max-width:600px;
+  margin:0 auto;
+}
+
+
+header > h1{
+  text-transform:capitalize;
+  text-align:center;
+}
+
+
+.box{
+  width:30px;
+  height:30px;
+  border-radius:3px;
+  border: solid 1px #000;
+  display:inline-block;
+  margin-left: 7px;
+  box-sizing: border-box;
+}
+
+
+table{
+  width:100%;
+  border-collapse:collapse;
+}
+table tr td{
+  padding:1em;
+}
+
+
+.one:hover .box:first-child{
+  background-color:orange;
+}
+ 
+.two:hover .box:last-child{
+  background-color:orange;
+}
+.three:hover .box:nth-child(2){
+  background-color:orange;
+}
+
+.four:hover .box:nth-last-child(2){
+  background-color:orange;
+}
+
+.five:hover .box:nth-child(odd){
+  background-color:orange;
+}
+
+.six:hover .box:nth-child(even){
+  background-color:orange;
+}
+
+.seven:hover .box:nth-child(3n){
+  background-color:orange;
+}
+
+.eight:hover .box:nth-child(n+3){
+  background-color:orange;
+}
